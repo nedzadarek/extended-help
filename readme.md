@@ -26,16 +26,16 @@ Each `function` is in the `documentation/<language>/<function>/<function>.html`.
 
 I am using HTML5 tags. I want to use unknown tags but I am not sure if it is good things to do.
 According to [the answer from the stackoverflow](https://stackoverflow.com/questions/10830682/is-it-ok-to-use-unknown-html-tags/27869027#27869027) it is ok to use unknown tags. 
-For example I would like to wrap each example (code and output) into <example>. 
+For example I would like to wrap each example (code and output) into `<example>`. 
 
 ### Versioning
 
 Source files (html) and their translations should have version and/or modification date. 
 I would like to use `<meta>` 
-- 1) <meta name="source-change-data" content="2019-06-05:12:01:01"
-- 2) <meta name="source-version" content="0.0.1"
-- 3) <meta name="translation-change-data" content="2019-06-05:12:01:01"
-- 4) <meta name="translation-version" content="0.0.1"
+- 1) `<meta name="source-change-data" content="2019-06-05:12:01:01">`
+- 2) `<meta name="source-version" content="0.0.1">`
+- 3) `<meta name="translation-change-data" content="2019-06-05:12:01:01">`
+- 4) `<meta name="translation-version" content="0.0.1">`
 
 Each translation should have all 4 `<meta>`.
 
